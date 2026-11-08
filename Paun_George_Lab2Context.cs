@@ -11,6 +11,7 @@ public class Paun_George_Lab2Context(DbContextOptions<Paun_George_Lab2Context> o
     public DbSet<Paun_George_Lab2.Models.Category> Category { get; set; } = default!;
 
     public DbSet<Paun_George_Lab2.Models.BookCategory> BookCategory { get; set; } = default!;
-    
 
+    public DbSet<Paun_George_Lab2.Models.Member> Member { get; set; } = default!;
+    public DbSet<Paun_George_Lab2.Models.Borrowing> Borrowing { get; set; } = default!;
 }
